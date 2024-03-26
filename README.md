@@ -5,18 +5,22 @@
         <img src="images/SHLogo.jpg" alt="Image Description" width="100" height="100">
       </td>
       <td align="center" style="border: none">
-        <h1>DEMOGRAPHIC DASHBOARD</h1>
-        <h2 style="color: blue;">SKILHARVEST ANALYTICS INTERNS</h2>
-        <h2 style="color: green;">TEAM DATACRUISERS</h2>
-        <h4 style="color: red;">(February 29, 2024)</h4>
+        <h1>DEMOGRAPHIC DASHBOARD<br>SKILHARVEST DATA ANALYTIC INTERNS                                                                                                                                                                              </h1>
       </td>
     </tr>
   </table>
 </div>
 
+<div align="center">
+  <img src="images/intro.PNG">
+</div>
 
 ## Project Overview
 This is my first capstone project from the SkilHarvest DataAnalytics Bootcamp. It entails an in-depth analysis of demographic and professional data collected from participants enrolled in the Bootcamp 2023-2024.
+
+<div align="center">
+  <img src="images/intro.PNG">
+</div>
 
 ## Project Objective:
 The objective of the Demographic Dashboard project was to gather comprehensive insights into the demographics and interests of interns participating in the SkilHarvest Data Analytics Bootcamp program.
