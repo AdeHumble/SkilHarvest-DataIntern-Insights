@@ -16,9 +16,14 @@
 </div>
 
 ## Project Overview
-This is my first capstone project from the SkilHarvest DataAnalytics Bootcamp. It entails an in-depth analysis of demographic and professional data collected from participants enrolled in the Bootcamp 2023-2024.
+This is my first capstone project from the SkilHarvest Data Analytics Bootcamp, serving as the team lead for a group effort. It entails an in-depth analysis of demographic and professional data collected from participants enrolled in the Bootcamp 2023-2024
 
-## Project Objective:
+## Meet The Team
+<div align="center">
+  <img src="images/teammembers.PNG">
+</div>
+
+## Project Objective
 The objective of the Demographic Dashboard project was to gather comprehensive insights into the demographics and interests of interns participating in the SkilHarvest Data Analytics Bootcamp program.
 
 ## Data Collection:
