@@ -2,10 +2,10 @@
   <table style="margin-left:auto; margin-right:auto; border-collapse: collapse">
     <tr>
       <td align="left" style="border: none">
-        <img src="images/SHLogo.jpg" alt="Image Description" width="100" height="100">
+        <img src="images/SHLogo.jpg" alt="Image Description" width="200" height="200">
       </td>
       <td align="center" style="border: none">
-        <h1>DEMOGRAPHIC DASHBOARD<br>SKILHARVEST DATA ANALYTIC INTERNS                                                                                                                                                                              </h1>
+        <h1>DEMOGRAPHIC DASHBOARD<br>FOR<br>SKILHARVEST DATA ANALYTIC INTERNS                                                                                                                                                                              </h1>
       </td>
     </tr>
   </table>
@@ -15,35 +15,61 @@
   <img src="images/intro.PNG">
 </div>
 
-## Project Overview
+## PROJECT OVERVIEW
 This is my first capstone project from the SkilHarvest Data Analytics Bootcamp, serving as the team lead for a group effort. It entails an in-depth analysis of demographic and professional data collected from participants enrolled in the Bootcamp 2023-2024
 
-## Meet The Team
+## MEET THE TEAM
 <div align="center">
-  <img src="images/teammembers.PNG">
+  <img src="images/team%20datacruisers.PNG">
 </div>
 
-## Project Objective
+## PROJECT OBJECTIVE
 The objective of the Demographic Dashboard project was to gather comprehensive insights into the demographics and interests of interns participating in the SkilHarvest Data Analytics Bootcamp program.
 
-## Data Collection:
-- Data was collected primarily through the distribution of a Google Form questionnaire among participating interns.
-- The questionnaire captured a range of information, including personal details, academic qualifications, professional background, interests, and preferences related to data analytics training.
-- Carefully crafted to ensure clarity and ease of completion, the form was shared with interns via email with a clear deadline for response submission.
-- You can find the google questionaire [Here](https://bit.ly/SkilHarvestClassData) and the form responses at [Data](https://docs.google.com/spreadsheets/d/1j683Iej1rexP0ZklCt4CQSEjTZpUGAfhIirowQNtk80/edit?resourcekey#gid=120058417)
+## TOOLS & TECHNOLOGIES
+1. **Google forms:** For collecting data
+2. **Google sheets:** For storing data
+3. **PowerBI:** For data cleaning & Visualisation
+4. **Google Slide:** For project presentation
 
+## DATA COLLECTION
+|THE STAGES OF DATA COLLECTION|
+|-----------------------------|
+|1. Data was collected primarily through the distribution of a Google Form questionnaire among participating interns.|
+|2. The questionnaire captured a range of information, including personal details, academic qualifications, professional background, interests, and preferences related to data analytics training.|
+|3. Carefully crafted to ensure clarity and ease of completion, the form was shared with interns via email with a clear deadline for response submission.|
+|4. We made sure that all data collection procedures adhered to ethical guidelines and data protection regulations.|
+|5. In addition, respondents were assured of the confidentiality and anonymity of their responses to foster trust and encourage honest feedback.|
+|6. Download the google questionaire that was used [here](https://bit.ly/SkilHarvestClassData) and the form responses at [data](https://docs.google.com/spreadsheets/d/1j683Iej1rexP0ZklCt4CQSEjTZpUGAfhIirowQNtk80/edit?resourcekey#gid=120058417)|
 
+## DATA CLEANING & PREPROCESSING TECHNIQUES
+This section outlines the data preprocessing techniques employed to clean and prepare the dataset for analysis. Each technique addresses specific issues such as data type standardization, correcting data uniqueness, text manipulations, checking for duplicate records, feature engineering, and handling missing value
 
+### <p align= "center"> Data Type Standardization </p>
+- **Timestamp Column:** Updated data type from "TIMESTAMP" to "DATETIME" for consistency.
+- **Remaining Columns:** Standardized data types from "ANY" to "TEXT" for uniformity
 
-### Compliance & Confidentiality:
-- All data collection procedures adhered to ethical guidelines and data protection regulations.
-- Respondents were assured of the confidentiality and anonymity of their responses to foster trust and encourage honest feedback.
+### <p align= "center"> Correct for Data Uniquenessn </p>
+- **Trimming:** Removed leading & trailing spaces from "Occupation" and "Country" columns.
+- **Capitalization:** Capitalized each word in the "Occupation" column for normalization.
+- **Replacement:** Replaced specific occupation values with more generic terms for consistency. For instance, replaced __"Business Man"__ with __"Business"__, __"Nysc"__ with __"Corper"__ for consistencies and standardized all engineering occupations variations by replacing them with __"Engineer."__
 
-### Data Preprocessing Techniques:
-- Addressed data type inconsistencies, missing values, and text manipulations to ensure data integrity and consistency.
-- Employed feature engineering techniques to derive meaningful insights from the data.
+### <p align= "center"> Text Manipulations </p>
+- **Email Column:** Trimmed leading and trailing spaces, converted to lowercase.
+- **Name Column:** Trimmed leading and trailing spaces, capitalized each word.
+- **Phone Column:** Replaced inconsistent formats **("8066030378" & "081 3336 055 6")** with standardized ones **("08066030378" & "08133360556")**.
 
-### Results and Observations:
+### <p align= "center"> Check for Duplicate Records </p>
+- **Duplicate Removal:** Removed duplicate records associated with **"Jonathan Foli Klu."**
+
+### <p align= "center"> Feature Engineering </p>
+- **New Column Creation:** Created "Email Type" based on existing email data.
+- **Timestamp Classification:** Derived "Duration" column representing time elapsed since a specific timestamp.
+
+### <p align= "center"> Handling Missing Values </p>
+- **Country Column:** Imputed missing values using the mode value.
+
+### RESULTS & OBSERVATIONS
 
 <div align="center">
   <img src="images/b.PNG">
@@ -57,7 +83,7 @@ The objective of the Demographic Dashboard project was to gather comprehensive i
 
 You can downlaod my group presentation slde [Here](https://docs.google.com/presentation/d/1hi_Z7c0v6xgI5BJ28VIZEHYDwbsxOoARtKH0aU4lLuE/edit#slide=id.g2bde3e191d5_2_1519)
 
-### Recommendations:
+### RECOMMENDATIONS
 1. Targeted outreach for underrepresented groups.
 2. Foster collaborative partnerships with educational institutions, professional organizations, and industry stakeholders.
 3. Develop tailored training programs catering to specific demographic needs.
