@@ -2,7 +2,7 @@
   <table style="margin-left:auto; margin-right:auto; border-collapse: collapse">
     <tr>
       <td align="left" style="border: none">
-        <img src="images/SHLogo.jpg" alt="Image Description" width="200" height="200">
+        <img src="images/SHLogo.jpg" alt="Image Description" width="150" height="150">
       </td>
       <td align="center" style="border: none">
         <h1>DEMOGRAPHIC DASHBOARD<br>FOR<br>SKILHARVEST DATA ANALYTIC INTERNS                                                                                                                                                                              </h1>
@@ -49,7 +49,7 @@ This section outlines the data preprocessing techniques employed to clean and pr
 - **Timestamp Column:** Updated data type from "TIMESTAMP" to "DATETIME" for consistency.
 - **Remaining Columns:** Standardized data types from "ANY" to "TEXT" for uniformity
 
-### <p align= "center"> Correct for Data Uniquenessn </p>
+### <p align="center"><strong>Correct for Data Uniqueness</strong></p>
 - **Trimming:** Removed leading & trailing spaces from "Occupation" and "Country" columns.
 - **Capitalization:** Capitalized each word in the "Occupation" column for normalization.
 - **Replacement:** Replaced specific occupation values with more generic terms for consistency. For instance, replaced __"Business Man"__ with __"Business"__, __"Nysc"__ with __"Corper"__ for consistencies and standardized all engineering occupations variations by replacing them with __"Engineer."__
@@ -58,21 +58,33 @@ This section outlines the data preprocessing techniques employed to clean and pr
 - **Email Column:** Trimmed leading and trailing spaces, converted to lowercase.
 - **Name Column:** Trimmed leading and trailing spaces, capitalized each word.
 - **Phone Column:** Replaced inconsistent formats **("8066030378" & "081 3336 055 6")** with standardized ones **("08066030378" & "08133360556")**.
+<div align="center">
+  <img src="images/textmanipulations.PNG">
+</div>
 
 ### <p align= "center"> Check for Duplicate Records </p>
 - **Duplicate Removal:** Removed duplicate records associated with **"Jonathan Foli Klu."**
+<div align="center">
+  <img src="images/duplicaterecord.PNG">
+</div>
 
 ### <p align= "center"> Feature Engineering </p>
 - **New Column Creation:** Created "Email Type" based on existing email data.
 - **Timestamp Classification:** Derived "Duration" column representing time elapsed since a specific timestamp.
+<div align="center">
+  <img src="images/featureengineering.PNG">
+</div>
 
 ### <p align= "center"> Handling Missing Values </p>
 - **Country Column:** Imputed missing values using the mode value.
+<div align="center">
+  <img src="images/missingvalues.PNG">
+</div>
 
 ### RESULTS & OBSERVATIONS
 
 <div align="center">
-  <img src="images/b.PNG">
+  <img src="images/SH%20DataIntern%20Insights.PNG">
 </div>
 
 1. Representation of interns by qualification: SSCE and ND qualifications were found to be underrepresented, comprising only 4.7% of the total cohort.
