@@ -37,7 +37,7 @@ This is my first capstone project from the SkilHarvest Data Analytics Bootcamp, 
 </div>
 
 ## PROJECT OBJECTIVE
-The objective of the Demographic Dashboard project was to gather comprehensive insights into the demographics and interests of interns participating in the SkilHarvest Data Analytics Bootcamp program.
+The objective of the Demographic Dashboard project is to gather comprehensive insights into the demographics and interests of interns participating in the SkilHarvest Data Analytics Bootcamp program.
 
 ## TOOLS & TECHNOLOGIES
 1. **Google forms:** For collecting data
@@ -48,7 +48,7 @@ The objective of the Demographic Dashboard project was to gather comprehensive i
 ## DATA COLLECTION
 |THE STAGES OF DATA COLLECTION|
 |-----------------------------|
-|1. Data was collected primarily through the distribution of a Google Form questionnaire among participating interns.|
+|1. Data was collected primarily through the distribution of a Google Form questionnaire among participating data interns.|
 |2. The questionnaire captured a range of information, including personal details, academic qualifications, professional background, interests, and preferences related to data analytics training.|
 |3. Carefully crafted to ensure clarity and ease of completion, the form was shared with interns via email with a clear deadline for response submission.|
 |4. We made sure that all data collection procedures adhered to ethical guidelines and data protection regulations.|
@@ -113,7 +113,7 @@ This section outlines the data preprocessing techniques employed to clean and pr
 
 ## RECOMMENDATIONS
 1. Create targeted campaigns for underrepresented groups of lower qualifications.
-2. Foster collaborative partnerships with educational institutions, professional organizations, and industry stakeholders.
+2. Foster collaborative training partnerships with educational institutions, professional organizations, and industry stakeholders.
 3. Develop tailored training programs catering to specific demographic needs.
 4. Diversify marketing channels and timing strategies to ensure broader reach.
 
@@ -121,7 +121,7 @@ This section outlines the data preprocessing techniques employed to clean and pr
 Expand the project scope by replicating it with a larger dataset. Develop a dynamic dashboard to visualize the demographics and interests of interns across various SkillHarvest bootcamp courses, such as project management, digital marketing, cybersecurity, and web development,
 
 ## Contact Information
-For inquiries, please contact [Email](sunmolaadeyanju@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/sunmolaadeyanju/).
+For inquiries, please contact (sunmolaadeyanju@gmail.com)or connect on [LinkedIn](https://www.linkedin.com/in/sunmolaadeyanju/).
 
 ## Acknowledgements
 - Special thanks to [Mr. Temidayo](https://www.linkedin.com/in/temidayoayeni/) for his invaluable support and guidance.
