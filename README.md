@@ -121,7 +121,7 @@ This section outlines the data preprocessing techniques employed to clean and pr
 Expand the project scope by replicating it with a larger dataset. Develop a dynamic dashboard to visualize the demographics and interests of interns across various SkillHarvest bootcamp courses, such as project management, digital marketing, cybersecurity, and web development,
 
 ## Contact Information
-For inquiries, please contact (sunmolaadeyanju@gmail.com)or connect on [LinkedIn](https://www.linkedin.com/in/sunmolaadeyanju/).
+For inquiries, please contact sunmolaadeyanju@gmail.com connect on [LinkedIn](https://www.linkedin.com/in/sunmolaadeyanju/).
 
 ## Acknowledgements
 - Special thanks to [Mr. Temidayo](https://www.linkedin.com/in/temidayoayeni/) for his invaluable support and guidance.
