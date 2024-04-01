@@ -15,6 +15,19 @@
   <img src="images/intro.PNG">
 </div>
 
+## <p align="center"/> **TABLE OF CONTENTS** </p>
+1. [Project Overview](#project-overview)
+2. [Meet the Team](#meet-the-team)
+3. [Project Objective](#project-objective)
+4. [Tools & Technologies Used](#tools--technologies)
+7. [Data Collection](#data-collection)
+8. [Data Cleaning & Preprocessing](#data-cleaning--data-preprocessing-techniques)
+10. [Results & Observations](#results--observations)
+11. [Recommendations](#recommendations)    
+12. [Future Work](#future-work)
+14. [Contact Information](#contact-information)
+15. [Acknowledgements](#acknowledgements)
+
 ## PROJECT OVERVIEW
 This is my first capstone project from the SkilHarvest Data Analytics Bootcamp, serving as the team lead for a group effort. It entails an in-depth analysis of demographic and professional data collected from participants enrolled in the Bootcamp 2023-2024
 
@@ -42,7 +55,7 @@ The objective of the Demographic Dashboard project was to gather comprehensive i
 |5. In addition, respondents were assured of the confidentiality and anonymity of their responses to foster trust and encourage honest feedback.|
 |6. Download the google questionaire that was used [here](https://bit.ly/SkilHarvestClassData) and the form responses at [data](https://docs.google.com/spreadsheets/d/1j683Iej1rexP0ZklCt4CQSEjTZpUGAfhIirowQNtk80/edit?resourcekey#gid=120058417)|
 
-## DATA CLEANING & PREPROCESSING TECHNIQUES
+## DATA CLEANING & DATA PREPROCESSING TECHNIQUES
 This section outlines the data preprocessing techniques employed to clean and prepare the dataset for analysis. Each technique addresses specific issues such as data type standardization, correcting data uniqueness, text manipulations, checking for duplicate records, feature engineering, and handling missing value
 
 ### <p align= "center"> Data Type Standardization </p>
@@ -81,7 +94,7 @@ This section outlines the data preprocessing techniques employed to clean and pr
   <img src="images/missingvalues.PNG">
 </div>
 
-### RESULTS & OBSERVATIONS
+## RESULTS & OBSERVATIONS
 |RESULTS AND OBSERVATIONS|
 |--------------------------|
 |**1. Representation of interns by qualification**<br>SSCE and ND qualifications were found to be underrepresented, **comprising only 4.7% of the total cohort**.|
@@ -89,13 +102,6 @@ This section outlines the data preprocessing techniques employed to clean and pr
 |**3. Interest in data analytics across professions**<br>Notable interest in data analytics was observed among students, engineers, teachers, and individuals with similar job roles to data analysts, collectively **comprising 44.2% of the intern population**.|
 |**4. Interns Engagement**<br>The survey form received a significant spike in responses **within the first 4 minutes**, indicating prompt and engaged participation from interns. Approximately **80% of the participants responded within this initial timeframe**|
 |**5. Upskilling interest and demographic factors**<br>A notable correlation exists between upskilling interest, age group, and academic qualifications. Young individuals aged 20-34 show a heightened interest in data analysis upskilling, representing approximately **84% of participants at the SkilHarvest data analysis bootcamp**.<br><br>Similarly, individuals with higher academic qualifications demonstrate a greater inclination towards data analysis compared to those with lower qualifications, **comprising about 95% of participants**. This trend may be attributed to increased exposure|
-||
-
-
-
-
-
-
 
 <div align="center">
   <img src="images/SH%20DataIntern%20Insights.PNG">
@@ -103,9 +109,17 @@ This section outlines the data preprocessing techniques employed to clean and pr
 
 More so, you can downlaod my group presentation slide [here](https://docs.google.com/presentation/d/1hi_Z7c0v6xgI5BJ28VIZEHYDwbsxOoARtKH0aU4lLuE/edit#slide=id.g2bde3e191d5_2_1519)
 
-### RECOMMENDATIONS
-1. Targeted outreach for underrepresented groups.
+## RECOMMENDATIONS
+1. Create targeted campaigns for underrepresented groups of lower qualifications.
 2. Foster collaborative partnerships with educational institutions, professional organizations, and industry stakeholders.
 3. Develop tailored training programs catering to specific demographic needs.
 4. Diversify marketing channels and timing strategies to ensure broader reach.
 
+## FUTURE WORK
+Expand the project scope by replicating it with a larger dataset. Develop a dynamic dashboard to visualize the demographics and interests of interns across various SkillHarvest bootcamp courses, such as project management, digital marketing, cybersecurity, and web development,
+
+## Contact Information
+For inquiries, please contact [Email](sunmolaadeyanju@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/sunmolaadeyanju/).
+
+## Acknowledgements
+- Special thanks to [Mr. Temidayo](https://www.linkedin.com/in/temidayoayeni/) for his invaluable support and guidance.
