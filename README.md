@@ -103,11 +103,13 @@ This section outlines the data preprocessing techniques employed to clean and pr
 |**4. Interns Engagement**<br>The survey form received a significant spike in responses **within the first 4 minutes**, indicating prompt and engaged participation from interns. Approximately **80% of the participants responded within this initial timeframe**|
 |**5. Upskilling interest and demographic factors**<br>A notable correlation exists between upskilling interest, age group, and academic qualifications. Young individuals aged 20-34 show a heightened interest in data analysis upskilling, representing approximately **84% of participants at the SkilHarvest data analysis bootcamp**.<br><br>Similarly, individuals with higher academic qualifications demonstrate a greater inclination towards data analysis compared to those with lower qualifications, **comprising about 95% of participants**. This trend may be attributed to increased exposure|
 
+**I invite you to have a glimpse of the project dasboard below:**
+
 <div align="center">
-  <img src="images/SH%20DataIntern%20Insights.PNG">
+  <img src="images/SH%20DataIntern%20Insights.PNG" alt="Project Dashboard">
 </div>
 
-More so, you can downlaod my group presentation slide [here](https://docs.google.com/presentation/d/1hi_Z7c0v6xgI5BJ28VIZEHYDwbsxOoARtKH0aU4lLuE/edit#slide=id.g2bde3e191d5_2_1519)
+**More so, you can downlaod my group presentation slide** [here](https://docs.google.com/presentation/d/1hi_Z7c0v6xgI5BJ28VIZEHYDwbsxOoARtKH0aU4lLuE/edit#slide=id.g2bde3e191d5_2_1519)
 
 ## RECOMMENDATIONS
 1. Create targeted campaigns for underrepresented groups of lower qualifications.
