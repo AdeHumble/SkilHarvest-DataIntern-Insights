@@ -58,16 +58,16 @@ The objective of the Demographic Dashboard project is to gather comprehensive in
 ## DATA CLEANING & DATA PREPROCESSING TECHNIQUES
 This section outlines the data preprocessing techniques employed to clean and prepare the dataset for analysis. Each technique addresses specific issues such as data type standardization, correcting data uniqueness, text manipulations, checking for duplicate records, feature engineering, and handling missing value
 
-### <p align= "center"> Data Type Standardization </p>
+## <p align= "center"> Data Type Standardization </p>
 - **Timestamp Column:** Updated data type from "TIMESTAMP" to "DATETIME" for consistency.
 - **Remaining Columns:** Standardized data types from "ANY" to "TEXT" for uniformity
 
-### <p align="center"><strong>Correct for Data Uniqueness</strong></p>
+## <p align="center"><strong>Correct for Data Uniqueness</strong></p>
 - **Trimming:** Removed leading & trailing spaces from "Occupation" and "Country" columns.
 - **Capitalization:** Capitalized each word in the "Occupation" column for normalization.
 - **Replacement:** Replaced specific occupation values with more generic terms for consistency. For instance, replaced __"Business Man"__ with __"Business"__, __"Nysc"__ with __"Corper"__ for consistencies and standardized all engineering occupations variations by replacing them with __"Engineer."__
 
-### <p align= "center"> Text Manipulations </p>
+## <p align= "center"> Text Manipulations </p>
 - **Email Column:** Trimmed leading and trailing spaces, converted to lowercase.
 - **Name Column:** Trimmed leading and trailing spaces, capitalized each word.
 - **Phone Column:** Replaced inconsistent formats **("8066030378" & "081 3336 055 6")** with standardized ones **("08066030378" & "08133360556")**.
@@ -75,20 +75,20 @@ This section outlines the data preprocessing techniques employed to clean and pr
   <img src="images/textmanipulations.PNG">
 </div>
 
-### <p align= "center"> Check for Duplicate Records </p>
+## <p align= "center"> Check for Duplicate Records </p>
 - **Duplicate Removal:** Removed duplicate records associated with **"Jonathan Foli Klu."**
 <div align="center">
   <img src="images/duplicaterecord.PNG">
 </div>
 
-### <p align= "center"> Feature Engineering </p>
+## <p align= "center"> Feature Engineering </p>
 - **New Column Creation:** Created "Email Type" based on existing email data.
 - **Timestamp Classification:** Derived "Duration" column representing time elapsed since a specific timestamp.
 <div align="center">
   <img src="images/featureengineering.PNG">
 </div>
 
-### <p align= "center"> Handling Missing Values </p>
+## <p align= "center"> Handling Missing Values </p>
 - **Country Column:** Imputed missing values using the mode value.
 <div align="center">
   <img src="images/missingvalues.PNG">
@@ -118,10 +118,10 @@ This section outlines the data preprocessing techniques employed to clean and pr
 4. Diversify marketing channels and timing strategies to ensure broader reach.
 
 ## FUTURE WORK
-Expand the project scope by replicating it with a larger dataset. Develop a dynamic dashboard to visualize the demographics and interests of interns across various SkillHarvest bootcamp courses, such as project management, digital marketing, cybersecurity, and web development,
+I hope to expand the project scope by replicating it with a larger dataset. Develop a dynamic dashboard to visualize the demographics and interests of interns across various SkillHarvest bootcamp courses, such as project management, digital marketing, cybersecurity, and web development,
 
 ## Contact Information
-For inquiries, please contact sunmolaadeyanju@gmail.com connect on [LinkedIn](https://www.linkedin.com/in/sunmolaadeyanju/).
+For inquiries, please contact me at sunmolaadeyanju@gmail.com or connect via [LinkedIn](https://www.linkedin.com/in/sunmolaadeyanju/).
 
 ## Acknowledgements
 - Special thanks to [Mr. Temidayo](https://www.linkedin.com/in/temidayoayeni/) for his invaluable support and guidance.
